@@ -30,7 +30,7 @@ jobs:
         docker build -t daviddvp/graphql:0.0.2 .
     - name: Push Docker image
       run: |
-        docker push daviddvp/graphql:0.0.1 .
+        docker push daviddvp/graphql:0.0.2
 
 
     
